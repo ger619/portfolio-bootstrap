@@ -61,8 +61,12 @@ span {
   border-radius: 24px;
   border: 1px solid #dfe1e6;
   padding: 24px;
-  height: 496px;
   margin-bottom: 142px;
+}
+
+.work-card > div > img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .canopy {
