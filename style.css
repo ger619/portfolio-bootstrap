@@ -5,7 +5,6 @@
   --color-primary-light: #7f8cff;
   --color-text: #344563;
   --color-text-dark: #172b4d;
-  
 }
 
 body {
@@ -57,11 +56,10 @@ span {
   margin-top: 140px;
 }
 
-
 .work-card {
   background-color: #fff;
   border-radius: 24px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   padding: 24px;
   height: 496px;
   margin-bottom: 142px;
@@ -72,7 +70,7 @@ span {
 }
 
 .dev-date {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .work-description {
@@ -81,27 +79,74 @@ span {
 
 .works-badge {
   padding: 0.4rem 1.2rem;
-    background: #ebebff;
-    border-radius: 0.8rem;
-    list-style: none;
-    display: inline;
-    color: var(--color-primary);
-    font-size: 12px;
+  background: #ebebff;
+  border-radius: 0.8rem;
+  list-style: none;
+  display: inline;
+  color: var(--color-primary);
+  font-size: 12px;
 }
 
 .btn-outline-primary {
-  color: #396DF2;
+  color: #396df2;
   border-color: var(--color-primary);
 }
 
+.about {
+  background-color: #fff;
+  padding-top: 142px;
+  padding-bottom: 142px;
+  border-top-left-radius: 150px;
+}
 
+.about-header {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
 
+.about-desc {
+  color: #344563;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  line-height: 24px;
+}
 
+.lang-card {
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  color: #253858;
+  line-height: 20px;
+  border: 1px solid #f7f7f9;
+  margin-right: 12px;
+}
 
+.lang-card > img {
+  width: 48px;
+  height: 48px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.about_features {
+  border-bottom: 1px solid #DFE1E6;
+  margin-top: 24px;
+}
+
+.open {
+  margin-bottom: 24px;
+}
+
+.about_features > p,
+.open > p {
+  font-size: 20px;
+  color: #344563;
+}
 
 @media screen and (max-width: 768px) {
   .welcome_section {
     background-image: url("images/header-shapes-mobile.png");
   }
 }
-
