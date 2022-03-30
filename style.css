@@ -5,6 +5,7 @@
   --color-primary-light: #7f8cff;
   --color-text: #344563;
   --color-text-dark: #172b4d;
+  
 }
 
 body {
@@ -52,8 +53,55 @@ span {
   background-color: #fff;
 }
 
+.works {
+  margin-top: 140px;
+}
+
+
+.work-card {
+  background-color: #fff;
+  border-radius: 24px;
+  border: 1px solid #DFE1E6;
+  padding: 24px;
+  height: 496px;
+  margin-bottom: 142px;
+}
+
+.canopy {
+  color: #344563;
+}
+
+.dev-date {
+  color: #6B778C;
+}
+
+.work-description {
+  color: var(--color-text);
+}
+
+.works-badge {
+  padding: 0.4rem 1.2rem;
+    background: #ebebff;
+    border-radius: 0.8rem;
+    list-style: none;
+    display: inline;
+    color: var(--color-primary);
+    font-size: 12px;
+}
+
+.btn-outline-primary {
+  color: #396DF2;
+  border-color: var(--color-primary);
+}
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .welcome_section {
     background-image: url("images/header-shapes-mobile.png");
   }
 }
+
