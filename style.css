@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root {
+  --color-primary: #6070ff;
+  --color-primary-light: #7f8cff;
+  --color-text: #344563;
+  --color-text-dark: #172b4d;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 20px;
+  color: #344563;
+  font-weight: 400;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  color: #091e42;
+}
+
+header {
+  background-color: #fff;
+}
+
+.connect {
+  color: var(--color-primary-light);
+  font-weight: 500;
+}
+
 #my-logo {
   color: #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
 }
 
 #nav_links_container > li > a {
-  font-family: 'Poppins', sans-serif;
-  color: #344563;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -18,4 +42,18 @@
 
 span {
   display: block;
+}
+
+.welcome_section {
+  background-image: url("images/header-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 150px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome_section {
+    background-image: url("images/header-shapes-mobile.png");
+  }
 }
