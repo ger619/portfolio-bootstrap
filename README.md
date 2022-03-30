@@ -1,56 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# My Portfolio
 
-# Project Name
-
-> Description the project.
-
+> My personal portfolio site as Micronaut. This site includes my works, my social media links, my contact e-mail that you can use to reach me and a contact form that you can send me your message anytime you wish! Please feel free to contact me for any question.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- Formspree.io
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link]()
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy follow these simple steps:
 
 
-To get a local copy up and running follow these simple example steps.
+- Create a local directory that you want to clone the repository.
+
+
+- Open the command prompt in the created directory.
+
+
+- On the terminal run this command git clone https://github.com/ger619/portfolio-bootstrap.git.
+
+
+- Go to the repository folder using command prompt cd Portfolio-mobile-version.
+
+
+- Install the dev dependencies for linters run npm install.
 
 ### Prerequisites
 
-### Setup
+Web Browser (Chrome,Safari,Mozilla,Edge)
 
 ### Install
 
+No need to install. Open the index.html file with a browser.
+
 ### Usage
 
-### Run tests
+You can navigate through the page and see my personal portfolio.
 
 ### Deployment
 
-
+You can check the Github Pages link.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
+- Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
 
-👤 **Author2**
+👤 **Author2 Abol Ger**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ger619](https://github.com/ger619)
+- Twitter: [@ger_abol](https://twitter.com/ger_abol)
+- LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
+
+👤 **Author3: Kelvin Bush**
+
+- GitHub: [@kelvinbush](https://github.com/kelvinbush)
+- Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
 
 ## 🤝 Contributing
 
@@ -64,9 +78,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-Thank you to Microverse Inc.
 
 ## 📝 License
 
